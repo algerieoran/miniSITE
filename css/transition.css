@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body {
+    /* margin: 0 auto; */
+    background-color:lightslategray;
+}
+.couleur_une {
+background: pink;
+}
+.couleur_deux {
+background: olive;
+}
+.change {
+    border:  thin solid beige;
+}
