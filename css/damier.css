@@ -1,0 +1,48 @@
+@charset "utf-8"
+/* css document */
+
+body {
+   /* margin: 0 auto; */
+   background-color: whitesmoke;
+}
+
+/* pour alterner les couleurs des div */
+.green {
+   background-color: green;
+}
+
+.turquoise {
+   background-color: turquoise;
+}
+
+.rose {
+background-color: pink;
+}
+
+.olive {
+    background-color: olive; 
+}
+
+.vide {
+    height: 10em;
+    width: 10em;
+    float: left;
+}
+
+/* Les styles communs aux div de la page */
+.c1, .c2 {
+    height: 10em;
+    width: 10em;
+    float: left;
+    border: 0.2em solid lightgreen;
+/* border-radius: 20%; */
+    border-radius:10% 5% 40% 0%;
+    text-align : center;
+    color: black;
+}
+
+.clear {
+   clear: both;
+}
+
+
