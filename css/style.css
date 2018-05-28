@@ -61,11 +61,13 @@ header h1 a:hover {
     color: white;
 
 }
+.text_droite {
+    text-align: right;
+}
 
 /* la côté de la page */
 aside {
-    /* largeur de l'élément */
-    width: 280px;
+    width: 280px; /* largeur de l'élément */
     float: left;
     padding: 10px;
 }
