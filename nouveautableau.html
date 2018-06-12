@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>nouveau tableau</title>
+    <style>
+        body {
+            background: pink;
+        }
+        table {
+            width: 95%;
+            background: white;
+        }
+        table, th, td {
+            border: 1px solid #000;
+            border-collapse: collapse; /* collapse; la propriété collapse fusionnés les bordure ( border) */
+
+        }
+        td, th {
+            padding: 10px;
+            text-align: left;
+            min-width: 200px;
+        }
+        /* th {
+            background: lightcyan;
+        } */
+
+        tr :hover {
+            background-color: yellowgreen;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Un tableau avec des raw fisionnées</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit pariatur porro vitae maxime quisquam eaque! Dolore odio non ad aliquid repudiandae similique reprehenderit recusandae asperiores eaque? Tenetur, blanditiis eveniet.</p>
+    <table>
+        <tr><!--  table row(rangé) -->
+            <th>Nom :</th>
+            <td>André Bourvil</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Téléphone :</th> <!-- fusion de cette td avec celle de la rangé du dessus -->
+            <!--  td: table data ( une céllule de tableau) --> <!-- rowspan pour fisionnés les rangé et colspan pour fisionnés les colonnes -->
+            <td>Passy 78 54</td>
+        </tr>
+        <tr>
+        <td>Camembert 78 55</td> 
+        </tr>
+
+
+
+
+    </table>
+
+    
+</body>
+</html>

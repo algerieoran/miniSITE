@@ -49,11 +49,15 @@ header h1 {
     text-transform: uppercase;
     width: 20%;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 35%;
+}
+h1{
+    text-align: center;
 }
 header h1 a {
     text-decoration: none;
     color: #333;
+   
 }
 header h1 a:hover {
     /* text-decoration: underline; */
